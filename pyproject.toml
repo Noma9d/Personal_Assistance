@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "personal-assistance"
+version = "0.1.0"
+description = "This is poetry meneger package."
+authors = ["Noma9d <woody0740@gmail.com>"]
+license = "GNU License"
+readme = "README.md"
+packages = [{include = "personal_assistance"}]
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
